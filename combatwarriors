@@ -29,14 +29,14 @@ local healthbars = {}
 local healthbaroutlines = {}
 local words = {
     "ez",
-    "get good: get .gg/EzDK4AD5Yj",
+    "get good: get .gg/2XetUJjVna",
     "trash",
     "touch grass",
     "retard",
     "i love among us",
     "the impostor?!?!?!",
     "grass? whats that",
-    "having issues playing the game? get .gg/EzDK4AD5Yj",
+    "having issues playing the game? get .gg/2XetUJjVna",
     "is your dad spiderman? because he far from home",
     "do you ever have problems with light users parrying your ds???",
     "how are you that bad??🤣🤣😂🤣🤣",
@@ -46,9 +46,9 @@ local words = {
     "do you like cheese?",
     "are you even trying to kill me???",
     "get rekt noobie",
-    "go get .gg/EzDK4AD5Yj now",
+    "go get .gg/2XetUJjVna now",
     "imagine dying",
-    ".gg/EzDK4AD5Yj on top (not really)",
+    ".gg/2XetUJjVna on top (not really)",
     "L Bozo",
     "clapped",
     "nothing personel kid",
@@ -1573,7 +1573,7 @@ while true do
 		local Notification = Notifications[i]
 		
 		StarterGui:SetCore("SendNotification", {
-			Title = "Rimuru Cheats",
+			Title = "Monochrome Cheats",
 			Text = Notification,
 			Duration = 10
 		})
