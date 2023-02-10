@@ -1,6 +1,6 @@
 shared.Enable = false
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
-local Window = OrionLib:MakeWindow({Name = "Rimuru Cheats", HidePremium = true, IntroText = "Kiyotaka Ware", SaveConfig = false, ConfigFolder = "Kiyotaka Ware"})
+local Window = OrionLib:MakeWindow({Name = "Monochrome Cheats", HidePremium = true, IntroText = "Kiyotaka Ware", SaveConfig = false, ConfigFolder = "Kiyotaka Ware"})
 local Tab = Window:MakeTab({
 Name = "⚔️ Farming",
 Icon = "rbxassetid://10762137635",
@@ -167,13 +167,13 @@ DiscordTab:AddButton({
         
         game:GetService("StarterGui"):SetCore("SendNotification", {
             Title = "[DISCORD]";
-            Text = "Discord Id Copied https://discord.gg/FAWUUFHCaU";
+            Text = "Discord Id Copied https://discord.gg/2XetUJjVna";
             Duration = 25;
         })
         
         
         if setclipboard then
-            setclipboard("https://discord.gg/FAWUUFHCaU")
+            setclipboard("https://discord.gg/2XetUJjVna")
         end
         end    
 })
