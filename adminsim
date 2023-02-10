@@ -1,5 +1,5 @@
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
-local Window = OrionLib:MakeWindow({IntroText = "Rimuru Cheats",Name = "Admin Simulator!", HidePremium = false, SaveConfig = true, ConfigFolder = "KW"})
+local Window = OrionLib:MakeWindow({IntroText = "Monochrome Cheats",Name = "Admin Simulator!", HidePremium = false, SaveConfig = true, ConfigFolder = "KW"})
 
 _G.autoLift = true;
 _G.autoReb = true;
@@ -209,20 +209,20 @@ DiscordTab:AddButton({
 	Name = "Copy Discord Link",
 	Callback = function()
         game:GetService("StarterGui"):SetCore("SendNotification", {
-            Title = "Rimuru Cheats";
+            Title = "Monochrome Cheats";
             Text = "More Scripts Coming Soon.";
             Duration = 25;
         })
         
         game:GetService("StarterGui"):SetCore("SendNotification", {
             Title = "[DISCORD]";
-            Text = "Discord Id Copied https://discord.gg/FAWUUFHCaU";
+            Text = "Discord Id Copied https://discord.gg/2XetUJjVna";
             Duration = 25;
         })
         
         
         if setclipboard then
-            setclipboard("https://discord.gg/FAWUUFHCaU")
+            setclipboard("https://discord.gg/2XetUJjVna")
         end
   	end    
 })
