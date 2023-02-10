@@ -5,7 +5,7 @@ until game.Players.LocalPlayer and game.Players.LocalPlayer.Character and game:I
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Glorti/Glorti/main/antiafk"))()
 
 if game.PlaceId == 9498006165 then -- Tapping Simulator!
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/RimuruCheats/rimurucheats/main/tapsim"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Malice111/Monochrome-Roblox/main/tapsim?token=GHSAT0AAAAAAB6TMPCO3DRBN62EPAMSE7A4Y7GCEVA"))()
 
 elseif game.PlaceId == 8884334497 then -- Mining Clicker Simulator
     loadstring(game:HttpGet("https://raw.githubusercontent.com/RimuruCheats/rimurucheats/main/miningclickingsim"))()
