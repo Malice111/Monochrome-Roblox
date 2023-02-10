@@ -8,7 +8,7 @@ if game.PlaceId == 9498006165 then -- Tapping Simulator!
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Malice111/Monochrome-Roblox/main/tapsim?token=GHSAT0AAAAAAB6TMPCO3DRBN62EPAMSE7A4Y7GCEVA"))()
 
 elseif game.PlaceId == 8884334497 then -- Mining Clicker Simulator
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/RimuruCheats/rimurucheats/main/miningclickingsim"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Malice111/Monochrome-Roblox/main/miningclickingsim?token=GHSAT0AAAAAAB6TMPCO6ZFOHS5U6OFTES3AY7GCFVA"))()
 
 elseif game.PlaceId == 7177496972 then -- Anime Warriors
     loadstring(game:HttpGet("https://raw.githubusercontent.com/RimuruCheats/rimurucheats/main/animewarriors"))()
