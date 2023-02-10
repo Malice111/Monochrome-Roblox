@@ -1,0 +1,42 @@
+repeat
+    wait()
+until game.Players.LocalPlayer and game.Players.LocalPlayer.Character and game:IsLoaded()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Glorti/Glorti/main/antiafk"))()
+
+if game.PlaceId == 9498006165 then -- Tapping Simulator!
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/RimuruCheats/rimurucheats/main/tapsim"))()
+
+elseif game.PlaceId == 8884334497 then -- Mining Clicker Simulator
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/RimuruCheats/rimurucheats/main/miningclickingsim"))()
+
+elseif game.PlaceId == 7177496972 then -- Anime Warriors
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/RimuruCheats/rimurucheats/main/animewarriors"))()
+
+elseif game.PlaceId == 8540346411 then -- Rebirth Champions X
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/RimuruCheats/rimurucheats/main/rebirthchampionsx"))()
+
+elseif game.PlaceId == 6516141723 then -- Doors non game
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/RimuruCheats/rimurucheats/main/doorsnongameloaded"))()
+
+elseif game.PlaceId == 6839171747 then -- Doors
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/RimuruCheats/rimurucheats/main/doors"))()
+
+elseif game.PlaceId == 4282985734 then -- Combat Warriors
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/RimuruCheats/rimurucheats/main/combatwarriors"))()
+    
+elseif game.PlaceId == 218377574 then -- Admin Simulator
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/RimuruCheats/rimurucheats/main/adminsim"))()
+    
+elseif game.PlaceId == 6969185078 then -- Elemental Awaking
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/RimuruCheats/rimurucheats/main/elemental%20awakening"))()
+    
+elseif game.PlaceId == 7056922815 then -- Reaper 2
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/RimuruCheats/rimurucheats/main/reaper2"))()
+    
+elseif game.PlaceId == 2753915549 then -- blox fruits
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/RimuruCheats/rimurucheats/main/bloxfruits"))()
+    
+elseif game.PlaceId == 7449423635 then -- blox fruits
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/RimuruCheats/rimurucheats/main/bloxfruits"))()
+end

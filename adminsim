@@ -1,0 +1,232 @@
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+local Window = OrionLib:MakeWindow({IntroText = "Rimuru Cheats",Name = "Admin Simulator!", HidePremium = false, SaveConfig = true, ConfigFolder = "KW"})
+
+_G.autoLift = true;
+_G.autoReb = true;
+
+function autoLift()
+    while _G.autoLift == true do
+        game:GetService("ReplicatedStorage").Remotes.Lift:FireServer()
+        wait(.000000000000000000000000000000000000000000000000000000000000000000000000000000000001)
+    end
+end
+
+function autoReb()
+    while _G.autoReb == true do
+        game:GetService("ReplicatedStorage").Remotes.UltraLift:FireServer()
+        wait(.000000000000000000000000000001)
+    end
+end
+
+
+local farmTab = Window:MakeTab({
+	Name = "Auto Farm",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+farmTab:AddToggle({
+	Name = "Auto Lift",
+	Default = false,
+	Callback = function(Value)
+		_G.autoLift = Value
+        autoLift()
+	end    
+})
+
+farmTab:AddToggle({
+	Name = "Auto Rebirth",
+	Default = false,
+	Callback = function(Value)
+		_G.autoReb = Value
+        autoReb()
+	end   
+})
+
+local playerTab = Window:MakeTab({
+	Name = "Local Player",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+local Section = playerTab:AddSection({
+	Name = "WalkSpeed"
+})
+
+playerTab:AddSlider({
+	Name = "WalkSpeed Changer",
+	Min = 0,
+	Max = 200,
+	Default = 16,
+	Color = Color3.fromRGB(255,255,255),
+	Increment = 1,
+	ValueName = "WalkSpeed",
+	Callback = function(Value)
+		game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = (Value)
+	end    
+})
+
+playerTab:AddButton({
+	Name = "Reset Walkspeed (16)",
+	Callback = function()
+      		game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 16
+  	end    
+})
+
+local Section = playerTab:AddSection({
+	Name = "JumpPower"
+})
+
+playerTab:AddSlider({
+	Name = "JumpPower Changer",
+	Min = 0,
+	Max = 200,
+	Default = 50,
+	Color = Color3.fromRGB(255,255,255),
+	Increment = 1,
+	ValueName = "JumpPower",
+	Callback = function(Value)
+		game.Players.LocalPlayer.Character.Humanoid.JumpPower = Value
+	end    
+})
+
+playerTab:AddButton({
+	Name = "Reset JumpPower (50)",
+	Callback = function()
+        game.Players.LocalPlayer.Character.Humanoid.JumpPower = 50
+  	end    
+})
+
+local Section = playerTab:AddSection({
+	Name = "Gravity"
+})
+
+playerTab:AddSlider({
+	Name = "Gravity Changer",
+	Min = 0,
+	Max = 500,
+	Default = 196,
+	Color = Color3.fromRGB(255,255,255),
+	Increment = 1,
+	ValueName = "Gravity",
+	Callback = function(Value)
+		game.Workspace.Gravity = Value
+	end    
+})
+
+playerTab:AddButton({
+	Name = "Reset Gravity (196)",
+	Callback = function()
+        game.workspace.Gravity = 196
+  	end 
+})
+
+local tepTab = Window:MakeTab({
+	Name = "Teleports",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+tepTab:AddButton({
+	Name = "Teleport Default World",
+	Callback = function()
+        placeid = 218377574  --change this to the place id you want
+        tp = game:GetService('TeleportService')
+        
+        for i,v in pairs (game.Players:GetChildren()) do
+            tp:Teleport(placeid, v)
+        end
+  	end    
+})
+
+tepTab:AddButton({
+	Name = "Teleport River World",
+	Callback = function()
+        placeid = 9739506878  --change this to the place id you want
+        tp = game:GetService('TeleportService')
+        
+        for i,v in pairs (game.Players:GetChildren()) do
+            tp:Teleport(placeid, v)
+        end
+  	end    
+})
+
+tepTab:AddButton({
+	Name = "Teleport Canyon World",
+	Callback = function()
+        placeid = 10135321551  --change this to the place id you want
+        tp = game:GetService('TeleportService')
+        
+        for i,v in pairs (game.Players:GetChildren()) do
+            tp:Teleport(placeid, v)
+        end
+  	end    
+})
+
+tepTab:AddButton({
+	Name = "Teleport Mountain World",
+	Callback = function()
+        placeid = 10135914792  --change this to the place id you want
+        tp = game:GetService('TeleportService')
+        
+        for i,v in pairs (game.Players:GetChildren()) do
+            tp:Teleport(placeid, v)
+        end
+  	end    
+})
+
+tepTab:AddButton({
+	Name = "Teleport Classic World",
+	Callback = function()
+        placeid = 10135223315  --change this to the place id you want
+        tp = game:GetService('TeleportService')
+        
+        for i,v in pairs (game.Players:GetChildren()) do
+            tp:Teleport(placeid, v)
+        end
+  	end    
+})
+
+tepTab:AddButton({
+	Name = "Teleport Winter World",
+	Callback = function()
+        placeid = 10144942022  --change this to the place id you want
+        tp = game:GetService('TeleportService')
+        
+        for i,v in pairs (game.Players:GetChildren()) do
+            tp:Teleport(placeid, v)
+        end
+  	end    
+})
+
+local DiscordTab = Window:MakeTab({
+	Name = "Discord",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+DiscordTab:AddButton({
+	Name = "Copy Discord Link",
+	Callback = function()
+        game:GetService("StarterGui"):SetCore("SendNotification", {
+            Title = "Rimuru Cheats";
+            Text = "More Scripts Coming Soon.";
+            Duration = 25;
+        })
+        
+        game:GetService("StarterGui"):SetCore("SendNotification", {
+            Title = "[DISCORD]";
+            Text = "Discord Id Copied https://discord.gg/FAWUUFHCaU";
+            Duration = 25;
+        })
+        
+        
+        if setclipboard then
+            setclipboard("https://discord.gg/FAWUUFHCaU")
+        end
+  	end    
+})
+
+
+
+OrionLib:Init()
