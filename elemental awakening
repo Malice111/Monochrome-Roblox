@@ -10,7 +10,7 @@ _G.Settings = {
     autorejoin = false,
     toggleguikey = "z"
 }
-local a = "Rimuru Cheats"
+local a = "Monochrome Cheats"
 local b = "ElementalAwakening.lua"
 function saveSettings()
     local c = game:GetService("HttpService")
