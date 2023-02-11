@@ -1,0 +1,1 @@
+This src is taken from an old project. Not my code, but my old partners code, as i dont code lua. I have full permission to post this. This is prosted for learning purposes only as its not meant to be sold. Do NOT sell this src, and scam people. U may use this post as a learning tool of how lua works!
